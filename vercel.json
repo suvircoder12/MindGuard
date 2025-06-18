@@ -4,11 +4,6 @@
   "framework": "nextjs",
   "buildCommand": "npm run build",
   "outputDirectory": "out",
-  "functions": {
-    "app/api/**/*.js": {
-      "runtime": "nodejs@18.x"
-    }
-  },
   "headers": [
     {
       "source": "/manifest.json",
@@ -49,6 +44,3 @@
     "NODE_ENV": "production"
   }
 }
-
-
-
