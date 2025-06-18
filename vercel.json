@@ -6,7 +6,7 @@
   "outputDirectory": "out",
   "functions": {
     "app/api/**/*.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "nodejs@18.x"
     }
   },
   "headers": [
@@ -49,4 +49,5 @@
     "NODE_ENV": "production"
   }
 }
+
 
