@@ -2,7 +2,7 @@
   "version": 2,
   "name": "mindguard-app",
   "framework": "nextjs",
-  "buildCommand": "npm run build",
+  "buildCommand": "next build",
   "headers": [
     {
       "source": "/manifest.json",
